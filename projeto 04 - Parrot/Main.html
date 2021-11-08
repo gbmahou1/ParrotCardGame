@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gabriel Hoelzle - Parrot</title>
+  </head>
+  <body onload = "inicializar()" style = "background-color: #EEF9BF;">
+
+    <header style = "color: #75B79E; font-size: 56px; text-align: center; top: 5%; width: 100%; font-weight: bolder;">
+      <p>PARROT CARD GAME</p>
+    </header>
+        
+    <div id="layout4" style = "width: 302px;"class = "layout hidden">
+
+          <button id = "l4c1" onclick = "clicarcarta(this)" class = "card">
+            
+              
+                <img class = "cardfront" src="Arquivos Úteis/front.png">
+              
+                <img id = "l4c1cb" class = "cardback hidden" src="Arquivos Úteis/bobrossparrot.gif">
+                
+            
+          </button>
+          <button id = "l4c2"  onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l4c2cb" class = "cardback hidden" src="Arquivos Úteis/bobrossparrot.gif">
+          </button>
+          <button id = "l4c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l4c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l4c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l4c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+
+      </div>
+        
+        
+        <div id="layout6" style = "width: 453px;" class = "layout hidden">
+
+          <button id = "l6c1" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c1cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l6c2" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c2cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l6c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l6c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l6c5" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c5cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l6c6" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l6c6cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+        
+        <div id="layout8" style = "width: 604px;" class = "layout hidden">
+
+          <button id = "l8c1" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c1cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c2" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c2cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c5" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c5cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c6" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c6cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c7" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c7cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l8c8" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l8c8cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+        
+        <div id="layout10" style = "width: 755px;" class = "layout hidden">
+
+          <button id = "l10c1" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c1cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c2" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c2cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c5" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c5cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c6" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c6cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c7" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c7cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c8" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c8cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c9" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c9cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l10c10" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l10c10cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+        
+        <div id="layout12" style = "width: 906px;" class = "layout hidden">
+
+          <button id = "l12c1" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c1cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c2" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c2cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c5" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c5cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c6" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c6cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c7" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c7cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c8" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c8cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c9" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c9cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c10" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c10cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c11" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c11cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l12c12" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l12c12cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+        
+        <div id="layout14" style = "width: 1057px;" class = "layout hidden">
+
+          <button id = "l14c1" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c1cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c2" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c2cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c3" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c3cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c4" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c4cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c5" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c5cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c6" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c6cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c7" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c7cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c8" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c8cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c9" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c9cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c10" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c10cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c11" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c11cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c12" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c12cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c13" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c13cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+          <button id = "l14c14" onclick = "clicarcarta(this)" class="card">
+            <img class = "cardfront" src="Arquivos Úteis/front.png">
+            <img id = "l14c14cb" class = "cardback hidden" src="Arquivos Úteis/explodyparrot.gif">
+          </button>
+
+        </div>
+    
+    
+  </body>
+  <script src="scripts.js"></script>
+</html>
